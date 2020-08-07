@@ -1,0 +1,27 @@
+.custom-selector {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 0.2rem;
+  height: 2rem;
+  width: 60%;
+  position: relative;
+  outline: none;
+  background: transparent;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  border: none;
+  border-bottom: 1px solid white;
+  transition: 1s;
+}
+
+.custom-selector:hover {
+  cursor: pointer;
+  color: var(--hover-yellow);
+  border-bottom: 1px solid var(--hover-yellow);
+}
+
+.custom-selector-option {
+  font-size: 1rem;
+  color: var(--main-color);
+  background-color: var(--light-grey);
+}

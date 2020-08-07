@@ -1,0 +1,6 @@
+const statsAT = {
+  GET_STATS_SUCCESS: 'GET_STATS_SUCCESS',
+  GET_STATS_FAILURE: 'GET_STATS_FAILURE',
+  SET_LOCATION: 'SET_LOCATION',
+};
+export default statsAT;

@@ -1,0 +1,23 @@
+.result-block {
+  display: flex;
+  border-bottom: 2px solid var(--bright-grey-opac);
+  font-size: 1.1rem;
+  transition: 0.5s;
+}
+
+.active-block {
+  background: var(--bright-grey-opac);
+}
+
+.result-block:hover {
+  cursor: pointer;
+  background: var(--bright-grey-opac);
+}
+
+.result-num {
+  padding-left: 4px;
+  font-weight: 700;
+  width: 63px;
+  letter-spacing: 0.3px;
+  filter: brightness(1.8);
+}

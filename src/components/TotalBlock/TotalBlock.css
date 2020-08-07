@@ -1,0 +1,15 @@
+.total-block {
+  background: var(--light-grey);
+  height: 80px;
+  width: 100%;
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.total-num {
+  filter: brightness(1.8);
+  margin-top: -10px;
+}

@@ -1,0 +1,42 @@
+.specific-stat-block {
+  background: var(--light-grey);
+  border-radius: 0.3rem;
+  padding: 0.4rem 1rem;
+  display: flex;
+}
+
+.specific-stat-label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  filter: brightness(1.8);
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-btn {
+  margin-left: auto;
+  margin-top: auto;
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  color: var(--bright-grey);
+  transition: 0.5s;
+}
+
+.chart-btn:hover {
+  cursor: pointer;
+  color: var(--hover-yellow);
+}
+
+.chart-btn-ico {
+  font-size: 1.7rem;
+}
+
+.chart-btn-text {
+  font-size: 0.7rem;
+  margin-right: 4px;
+  margin-bottom: 2px;
+}
